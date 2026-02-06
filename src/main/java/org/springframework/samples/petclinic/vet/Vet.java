@@ -35,6 +35,7 @@ import jakarta.xml.bind.annotation.XmlElement;
 /**
  * Simple JavaBean domain object representing a veterinarian.
  */
+
 @Entity
 @Table(name = "vets")
 public class Vet extends Person {

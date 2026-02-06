@@ -36,6 +36,7 @@ import jakarta.persistence.Table;
 /**
  * Simple business object representing a pet.
  */
+
 @Entity
 @Table(name = "pets")
 public class Pet extends NamedEntity {

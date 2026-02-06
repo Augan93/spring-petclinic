@@ -30,6 +30,7 @@ import java.util.Collection;
  * Data. See:
  * https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#repositories.query-methods.query-creation
  */
+
 public interface VetRepository extends Repository<Vet, Integer> {
 
 	/**

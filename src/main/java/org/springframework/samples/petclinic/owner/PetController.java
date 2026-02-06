@@ -37,12 +37,7 @@ import jakarta.validation.Valid;
 
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-/**
- * @author Juergen Hoeller
- * @author Ken Krebs
- * @author Arjen Poutsma
- * @author Wick Dynex
- */
+
 @Controller
 @RequestMapping("/owners/{ownerId}")
 class PetController {
